@@ -1,0 +1,301 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,100..900;1,100..900&family=Inter:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Teko:wght@300..700&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body {
+    background-color: #1F1517;
+    color: #ffff;
+}
+
+html {
+    font-family: Inter, sans-serif;
+    font-weight: 500;
+}
+
+a {
+    text-decoration: none;
+    color: #FFF2E780;
+}
+
+ul {
+    list-style: none;
+}
+
+nav {
+    max-width: 1120px;
+    margin: auto;
+    padding: 1.5em 10em;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sublogo {
+    font-family: 'Audrey-Normal';
+    font-size: 0.7em;
+    text-transform: uppercase;
+}
+
+.logo {
+    font-family: 'Brand';
+    font-size: 2em;
+    text-transform: uppercase;
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    gap: 1.5em;
+    font-weight: 300;
+}
+
+.github {
+    color: #FFF2E7;
+    font-weight: 300;
+    font-family: 'Brand';
+    text-align: justify;
+}
+
+.principal {
+    background-color: #181012;
+    box-shadow: 5px 3px 7px 1px rgba(0, 0, 0, 0.63);
+    border-radius: 10px;
+}
+
+.hero {
+    max-width: 1120px;
+    height: 60vh;
+    margin: auto;
+    display: flex;
+    
+    justify-content: space-between;
+    gap: 6em;
+    padding: 0em 2em;
+
+    align-items: center;
+    overflow: clip;
+}
+
+.hero-conteudo {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+
+.destaque {
+    font-family: 'Epilogue';
+    font-size: 1em;
+    text-transform: uppercase;
+
+}
+
+.marrom {
+    color: #A45349;
+}
+
+.amarelo {
+    color: #E7A80E;
+}
+
+h1 {
+    font-family: 'Montserrat';
+    font-size: 3.5em;
+    font-weight: 800px;
+}
+
+h1.unica {
+    font-family: 'Brand';
+    font-size: 3em;
+    font-weight: 800px;
+}
+
+hr {
+    border-color: #A45A49;
+}
+
+.hero-subtitulo {
+    font-family: 'Inter';
+    color: #C7BAB3;
+    font-size: 1.5em;
+    font-weight: 300;
+}
+
+.new {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+
+    font-family: 'Brand';
+    font-size: 1.2em;
+    font-weight: 100px;
+    font-weight: lighter;
+
+    text-align: center;
+    margin: auto;
+    padding: 5px;
+}
+
+.hero-imagens-container {
+    max-width: 45%;
+    column-count: 4;
+    column-gap: 1em;
+    margin: -2em;
+}
+
+
+.hero-imagens-container > figure > img {
+    width: 100%;
+    border-radius: 8px;
+
+}
+
+.botao-container {
+    width: 100%;
+    max-width: 1120px;
+    margin: auto;
+    transform: translate("0, -50%");
+}
+
+button {
+    border: none;
+    padding: 1em;
+    border-radius: 0.5em;
+    background-color: #A45A49;
+}
+
+.receitas {
+    display: flex;
+    flex-direction: column;
+    max-width: 1120px;
+    padding: 3em 2em;
+    margin: auto;
+}
+
+.receitas-cabecalho {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+    margin: auto;
+}
+
+.receitas-titulo {
+    font-family: 'Montserrat';
+    font-size: 2em;
+    font-weight: 700;
+    color: #FFF2E7;
+    margin: auto;
+}
+
+.receitas-subtitulo {
+    color: #C7BAB3;
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 1em;
+    font-style: normal;
+    margin: auto;
+}
+
+.receitas-card-container {
+    padding: 0em 10em;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 2em;
+}
+
+.receitas-card {
+    background-color: #241A1C;
+    padding: 2em;
+    border-radius: 0.5em;
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+    flex-basis: 29em;
+    margin-top: 2em;
+}
+
+.receitas-card-cabecalho {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: end;
+}
+
+.detalhes {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+}
+
+.receita-titulo {
+    color: #FFF2E7;
+    font-family: 'Montserrat';
+    font-size: 1.5em;
+    font-weight: 700;
+}
+
+.avaliacao {
+    color: #756A67;
+    font-family: 'Inter';
+    font-size: 0.8em;
+    font-weight: 500;
+}
+
+.descricao-avalicao {
+    color: #C7BAB3;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.autor {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 0.5em;
+}
+
+.autor > img {
+    border-radius: 20em;
+    width: 1.5em;
+}
+
+.autor-nome {
+    color: #C7BAB3;
+    font-family: 'Inter';
+    font-size: 1em;
+    font-weight: 600;
+}
+
+footer {
+    padding: 4em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5em;
+    background: #23181A;
+}
+
+.footer-copy {
+    color: #FFF2E7;
+    font-family: 'Inter';
+    font-size: 1em;
+    font-weight: 300;
+}
+
+.footer-autor {
+    color: #C7BAB3;
+    font-family: 'Brand';
+    font-size: 1em;
+    font-weight: 700;
+}
